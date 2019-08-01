@@ -50,7 +50,7 @@ hr {
 
 .hero {
   height: 300px;
-  background-image: url('./manhattan-336708_1920.jpg');
+  background-image: url('./images/manhattan-336708_1920.jpg');
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -64,12 +64,11 @@ hr {
 }
 .cards p {
   display: inherit;
-  height: 25px;
+  height: 100px;
   text-align: center;
   align-items: flex-end;
   color: white;
   background-color: black;
-  border-radius: 5px;
   opacity: 0.8;
 
 }
@@ -82,28 +81,31 @@ hr {
 .project1 {
   min-height: 50px;
   max-height: 300px;
-  background-image: url('./Social_Network_Analysis_Visualization.png');
+  background-image: url('./images/Social_Network_Analysis_Visualization.png');
   background-repeat: no-repeat;
   background-size: cover;
   width: 100%;
+  border: 4px solid black
 }
 
 .project2 {
   min-height: 50px;
   max-height: 300px;
-  background-image: url('./clones.png');
+  background-image: url('./images/clones.png');
   background-repeat: no-repeat;
   background-size: cover;
   width: 100%;
+  border: 4px solid black
 }
 .project3 {
   min-height: 50px;
   max-height: 300px;
-  background-image: url('./OGProjects.png');
+  background-image: url('./images/OGProjects.png');
   background-repeat: no-repeat;
   background-size: cover;
   background-position-x: center;
   width: 100%;
+  border: 4px solid black;
 }
 
 @media screen and (max-width: 375px){
@@ -118,7 +120,7 @@ hr {
 
   .hero {
     height: 200px;
-    background-image: url('./siteBanner5.jpg');
+    background-image: url('./images/siteBanner5.jpg');
     background-repeat: no-repeat;
     background-size: contain;
   }
